@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, sans-serif;
+    /* Set the background image and define its properties */
+    background-image: url('sunset.jpg'); /* Correct the path */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Set a minimum height of the viewport's height */
+}
+
+/* Style for the menu container */
+.menu {
+    background-color: #333; /* Background color of the menu */
+    overflow: hidden;
+    position: fixed; /* Fix the menu bar in place */
+    top: 0; /* Position it at the top of the viewport */
+    width: 100%; /* Make it stretch to the full width of the viewport */
+    z-index: 100; /* Ensure it's above other content */
+    display: flex; /* Use flex layout */
+    justify-content: center; /* Center-align menu items horizontally */
+    align-items: center; /* Center-align menu items vertically */
+}
+
+/* Style for the menu items */
+.menu a {
+    color: white; /* Text color */
+    text-align: center; /* Center-align text */
+    padding: 14px 24px; /* Add more spacing around menu items */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 10px; /* Add horizontal spacing between menu items */
+}
+
+/* Add some top margin to the first container to push it below the menu bar */
+.container#banner {
+    margin-top: 80px; /* Adjust this value based on your design preferences */
+}
+
+/* Style for the choice bar */
+.choice-bar {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background to the choice bar */
+    color: white; /* Text color */
+    text-align: center; /* Center-align text */
+    padding: 10px; /* Add padding to the choice bar */
+}
+
+/* Style for the choice bar links */
+.choice-bar a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Style for the choice bar links on hover */
+.choice-bar a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Style for the login/logout button */
+.login-logout-button {
+    float: right; /* Align the button to the right */
+    padding: 14px 16px; /* Add spacing around the button */
+    background-color: #007bff; /* Blue background color for the button */
+    color: white; /* Text color */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* Style for containers */
+/* Style for welcome container */
+.welcome {
+    max-width: 700px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    margin: 70px 0; /* Add margin between containers */
+}
+
+/* Style for the search bar */
+.search {
+    max-width: 700px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    margin: 50px 0 20px; 
+}
+
+/*Style for owned threads*/
+.owned-threads {
+    max-width: 700px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: left;
+    margin: 20px auto; /* Center the container */
+}
+
+/* Style for the footer */
+.footer {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background-color: #ffffff; /* Background color of the menu */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Spread the items horizontally */
+    align-items: center; /* Center-align items vertically */
+    width: 100%; /* Make it stretch to the full width of the viewport */
+}
+
+/* Style for social media icons in the footer */
+#footer #social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Push social icons to the right */
+}
+
+/* Style for the footer items on the left side */
+#footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Push items to the left */
+}
+
+/* Style for the footer item links */
+#footer ul li,
+#footer #social a {
+    list-style: none;
+    margin: 0 10px;
+}
+
+/* additional styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('sunset.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0; /* Remove default margin to the body */
+    padding: 0; /* Remove default padding to the body */
+}
+
+.menu {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+    text-align: center;
+    padding: 14px 24px;
+    text-decoration: none;
+    margin: 0 150px;
+    transition: background-color 0.3s; /* Add a smooth background color transition */
+}
+
+.menu a:hover {
+    background-color: #555; /* Darken the background color on hover */
+}
+
+.container#banner {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choice-bar {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.choice-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.choice-bar a:hover {
+    text-decoration: underline;
+}
+
+.login-logout-button {
+    float: right;
+    padding: 14px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth background color transition */
+}
+
+.login-logout-button:hover {
+    background-color: #0056b3; /* Darken the background color on hover */
+}
+
+/* Style for containers */
+
+
+
+
+
+
+
+/* Style for the footer */
+.footer {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background-color: #333; /* Dark background color for the footer */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed; /* Fixed position to stick it to the bottom */
+    bottom: 0; /* Stick it at the bottom of the viewport */
+}
+
+
+#footer #social a {
+    margin: 0 10px;
+    text-decoration: none; /* Remove underline from social icons */
+    color: white; /* Set the color of social icons to white */
+}
+
+#footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer ul li {
+    margin: 0 10px;
+}
+
+#footer ul li a {
+    text-decoration: none; /* Remove underline from footer links */
+    color: white; /* Set the color of footer links to white */
+    transition: color 0.3s; /* Add a smooth color transition */
+}
+
+#footer ul li a:hover {
+    color: #007bff; /* Change link color on hover */
+}
+
+.footer p {
+    color: white; /* Set the text color to white */
+}
+

@@ -132,8 +132,8 @@
 <!-- Menu -->
     <div class="menu">
         <a href="index.php">Home</a>
-        <a id="profile" href="profile.php">User Profile</a>
-        <a id="login-signup" href="login.php">Log In</a>
+        <a id="profile" href="user_page.php">User Profile</a>
+        <a id="login-signup" href="login_form.php">Log In</a>
     </div>
 
 <!-- Modal -->
@@ -212,7 +212,7 @@
             <a href="#"><img src="twitter.png" alt="Twitter"></a>
             <a href="#"><img src="instagram.png" alt="Instagram"></a>
         </div>
-        <p>&copy; 2023 Your Community Forum</p>
+        <p>&copy; 2023 Community Forum</p>
     </div>
 
 </body>
